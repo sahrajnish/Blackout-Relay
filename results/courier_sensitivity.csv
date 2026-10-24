@@ -1,0 +1,16 @@
+router,courier_fraction,escape_rate_manifest,escape_rate_proxy
+epidemic,0.0,0.0,0.0
+epidemic,0.006,0.35,0.35
+epidemic,0.012,0.675,0.675
+epidemic,0.024,0.85,0.85
+epidemic,0.05,0.9833333333333334,0.9833333333333334
+spray_wait,0.0,0.0,0.0
+spray_wait,0.006,0.27083333333333337,0.11666666666666667
+spray_wait,0.012,0.5708333333333333,0.20416666666666666
+spray_wait,0.024,0.825,0.4166666666666667
+spray_wait,0.05,0.975,0.6625
+spray_wait_utility,0.0,0.0,0.0
+spray_wait_utility,0.006,0.29583333333333334,0.225
+spray_wait_utility,0.012,0.5916666666666667,0.4375
+spray_wait_utility,0.024,0.8416666666666666,0.7375
+spray_wait_utility,0.05,0.975,0.95

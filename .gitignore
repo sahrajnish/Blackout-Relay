@@ -1,0 +1,27 @@
+# Secrets / machine-local config — never commit
+local.properties
+*.keystore
+*.jks
+*.p12
+keystore.properties
+.env
+*.secret
+
+# Gradle / Kotlin
+.gradle/
+build/
+.kotlin/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store

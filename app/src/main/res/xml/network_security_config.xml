@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cleartext is permitted only to local/test hosts so the M2 mock endpoint can
+     be exercised. Real drop pools use https pre-signed URLs, which this does
+     not affect. Remove the test host before release. -->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false" />
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">localhost</domain>
+        <domain includeSubdomains="true">127.0.0.1</domain>
+        <domain includeSubdomains="true">10.131.242.42</domain>
+    </domain-config>
+</network-security-config>

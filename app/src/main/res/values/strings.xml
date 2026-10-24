@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SPEC.md §25: the shipped label must be boring and non-descriptive.
+         Placeholder pending the naming decision in SPEC.md §28. -->
+    <string name="app_name">Pocket Notes</string>
+</resources>
